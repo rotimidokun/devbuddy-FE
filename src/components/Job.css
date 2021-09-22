@@ -1,0 +1,145 @@
+@media screen and (max-width: 480px) {
+
+    .link-job {
+    text-decoration: none;
+    }
+
+    .job {
+        max-width: 100%;
+        background-color: white;
+        box-shadow: 0px 1px 7px 3px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        padding: 1.6rem 1.8rem;
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+
+    .company-logo {
+        height: 46px;
+        width: 48px;
+        background-color: black;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2px;
+        margin-bottom: 18px;
+    }
+
+    .apple-logo {
+        color: white;
+        transform: scale(1.4);
+    }
+
+    .company{
+        color: #37383D;
+        margin-bottom: 2.5rem;
+        opacity:0.8;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .job-subdescription {
+        color: #37383D;
+        opacity:0.8;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .bottom-description {
+        display: flex;
+    }
+
+    .dot-divider {
+        color: #37383D;
+        opacity: 0.8;
+        transform: scale(0.21);
+        padding-top: 1.5px;
+    }
+
+
+    .job-title {
+        font-size: 20px;
+        line-height: 21px;
+        font-weight: 600;
+        color: #55BC7E;
+        font-family: 'Roboto Mono', monospace !important;
+        font-style: normal;
+        margin-bottom: 5px;
+    }
+
+    .job-subdescription{
+        font-size: 11px;
+    }
+
+    .job-type {
+        width: 50px;
+        height: 18px;
+        background: #37383D;
+        border-radius: 3px;
+        color: white;
+        display: flex;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+        font-size: 10px;
+    }
+
+    .location {
+        width: 64px;
+        height: 18px;
+        background: #37383D;
+        border-radius: 3px;
+        color: white;
+        display: flex;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .option {
+        position: absolute;
+        top: 21px;
+        bottom: 0;
+        right: 14px;
+        transform: scale(1.16);
+    }
+
+    .date-posted {
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 345px) {
+
+    .job {
+        height: 215px;
+    }
+
+    .job-subdescription {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bottom-description {
+        margin-bottom: 7px;
+    }
+
+    .date-posted {
+        font-size: 11px;
+    }
+}   

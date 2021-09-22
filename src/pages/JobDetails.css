@@ -1,0 +1,209 @@
+.jd-bodyContainer {
+    padding: 5rem 2rem 4rem 2rem;
+    
+}
+
+.jd-navbar {
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+
+.backArrow {
+    transform: scale(0.7);
+}
+
+.backArrowContainer {
+    border: 1px solid rgb(186, 186, 186);
+    display: flex;
+    border-radius: 5px;
+    margin-right: 7.1rem;
+}
+
+.jd-jobHighlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jd-jobDetailsText {    
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.jd-companyLogo{
+    height: 65px;
+    width: 65px;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.jd-appleLogo{
+    transform: scale(1.5);
+    color: white;
+}
+
+.jd-jobCaptionCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jd-jobTitle {
+    color: black;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace !important;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.jd-companyName {
+    color: #37383D;
+    opacity:0.8;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 15px;
+}
+
+.jd-jobType {
+    width: 50px;
+    height: 18px;
+    background: black;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 10px;
+}
+
+.jd-location {
+    width: 64px;
+    height: 18px;
+    background: black;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.jd-jobSubDescription {
+    margin-bottom: 3rem;
+}
+
+.jd-descriptionTextContainer {
+    width: 145px;
+    height: 39px;   
+    background: #55BC7E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.jd-jobDescritptionContainer {
+    margin-bottom: 1.5rem;
+}
+
+.jd-descriptionTextContainer p {
+    /* font-weight: 500; */
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.jd-jobDescritptionContainer p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.jd-jobDescritptionContainer p:nth-child(2) {
+    font-size: 16px;
+}
+
+
+.jd-jobResponsibilityContainer p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;    
+}
+
+.jd-jobResponsibilityContainer p:nth-child(2) {
+    font-size: 16px;
+}
+
+ul { 
+    list-style: none; 
+}
+
+ul li {
+    padding-left: 14px;
+}
+
+ul li:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+ul li:before{ 
+    content:"•"; font-size:12pt; 
+}
+
+.jd-applyBtnContainer {
+    width: 232px;
+    height: 49px;
+    background: #55BC7E;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jd-applyBtnContainer p {
+    /* font-weight: 500; */
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.jd-ctaBtnContPosition {
+    position: fixed;
+    bottom: 2rem;
+}
+
+.jd-ctaBtnContainer {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.jd-applyBtnContainer {
+    margin-right: 2rem;
+}
+
+.jd-saveBtnContainer {
+    width: 47px;
+    height: 48px;
+    background: #000000;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jd-bookmarkIcon {
+    color: white;
+}
